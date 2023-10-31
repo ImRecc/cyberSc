@@ -1,0 +1,25 @@
+for https://overthewire.org/wargames/bandit/
+after we ssh -i ./private.key bandit14@localhost -p 2220 and login, 
+The password for the next level can be retrieved by submitting the password of the current level to port 30000 on localhost.
+what is mean is we could simply 
+
+#USE NC TO SEND MESSAGE VIA GIVEN PORT
+
+netcat localhost 30000
+fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
+correct!
+jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+
+USE NETCAT TO FIRST SCAN
+when it comes to b16-b17, we could nc -zv bandit.labs.overthewire.org 1-65535 2>&1 | grep succeeded #very useful like merge return code wether 2 stderr & 1 stdout
+Connection to localhost (127.0.0.1) 31046 port [tcp/*] succeeded!
+Connection to localhost (127.0.0.1) 31518 port [tcp/*] succeeded!
+Connection to localhost (127.0.0.1) 31691 port [tcp/*] succeeded!
+Connection to localhost (127.0.0.1) 31790 port [tcp/*] succeeded!
+Connection to localhost (127.0.0.1) 31960 port [tcp/*] succeeded!
+
+
+B20->B21
+it require us to send password to verify and netcat'turn
+bandit20@bandit:~$ echo -n 'GbKksEFF4yrVs6il55v6gwY5aVje5f0j' | nc -l -p 1234 &
+background mission, nc -l -p setting monitor port, interesting
