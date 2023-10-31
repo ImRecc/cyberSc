@@ -1,0 +1,62 @@
+bandit0
+0
+NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL 1.
+rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi 2.
+aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG 3.
+2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe 4.
+lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR 5. 
+P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU 6.
+z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S 7.
+TESKZC0XvTetK0S9xNwm25STk5iWrBvP 8.
+EN632PlfYiZbn3PhVK3XOGSlNInNE00t 9.
+G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s 10.
+6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM 11.
+JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv 12.
+wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw 13.
+fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq 14.
+jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt 15.
+JQttfApK4SeyHwDlI9SXGR50qclOAil1 16.
+Connection to localhost (127.0.0.1) 31046 port [tcp/*] succeeded!
+Connection to localhost (127.0.0.1) 31518 port [tcp/*] succeeded!
+Connection to localhost (127.0.0.1) 31691 port [tcp/*] succeeded!
+Connection to localhost (127.0.0.1) 31790 port [tcp/*] succeeded!
+Connection to localhost (127.0.0.1) 31960 port [tcp/*] succeeded!
+31056/tcp closed unknown
+31518/tcp open   ssl/echo
+31691/tcp open   echo
+31790/tcp open   ssl/unknown
+31960/tcp open   echo
+VwOSWtCA7lRKkTfbr2IDh6awj9RNZM5e 
+hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg we could use ssh to send command after we send psw
+or /t to spawn a pseudo-terminal like -t /bin/bash or /bin/sh in this case
+
+awhqfNnAbc1naukrpqDYcF95h7HoMTrC
+VxCazJaVykI6W36BkBU0mJTCM8rR95XT 20.
+NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
+WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff
+QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G
+#!/bin/bash
+echo "flaws?"
+cat /etc/bandit_pass/bandit24 > /tmp/mySh/psw
+VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar
+p7TaowMYrmu23Ol8hiZh9UvD0O9hpx8d
+we could use ssh to send command after we send psw
+
+#you are not going to believe me but we scale the terminal to enable "more" and use "V" #option to get entry the VIM
+#and we use ":e /dir" to open a file with current account's permission
+c7GvcKlw9mC7aUQaPx7nwFstuAIBw1o1
+#also, once we entry the vim, we could use :set shell=/bin/bash and :shell to launch a common shell
+c7GvcKlw9mC7aUQaPx7nwFstuAIBw1o1
+YnQpBuifNMas1hcUFk70ZmqkhUU2EuaS
+AVanL161y9rsbcJIsFHuw35rjaOM19nR 28.
+
+
+- username: bandit29
+- password: xxxxxxxxxx
+
+tQKvmcwNYcFS6vmPHIUSI3ShmsrQZK8S 
+xbhV3HpNGlTIdnjUrdAlPzc2L6y9EOnS 
+OoffzGDlzhAlerFJ2cAiz1D41JW1Mhmt 31.
+rmCBvG56y58BXzv98yZGdO7ATVL5dW8y
+andit32:x:11032:11032:bandit level 32:/home/bandit32:/home/bandit32/uppershell
+odHo63fHiFqcWWJG9rLiLDtPm45KzUKy
