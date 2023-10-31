@@ -1,0 +1,40 @@
+this section are fun too, makes me to know how a bash work, and how a feature could be use to attack
+
+B18->B19
+the most fun is b18->b19, some jerk modified .bashrc and kick me out when I log in via ssh
+normal solution is SSH bypass command like:
+ssh bandit18@bandit.labs.overthewire.org -p 2220 ls ,#instead login and use the bash, we could send command same time
+or 
+
+2
+
+to spawn a pesudo-terminal at different loc after we know what bash is
+ssh bandit18@bandit.labs.overthewire.org -p 2220 /bin/bash                          
+ssh bandit18@bandit.labs.overthewire.org -p 2220 -t /bin/sh  
+
+irrelevate from realistic but see next
+
+
+B25->B26
+Logging in to bandit26 from bandit25 should be fairly easy… 
+The shell for user bandit26 is not /bin/bash, but something else. Find out what it is, how it works and how to break out of it
+
+bandit25@bandit:~$ cat /etc/passwd | grep bandit26
+bandit26:x:11026:11026:bandit level 26:/home/bandit26:/usr/bin/showtext
+bandit25@bandit:~$ ls -la /usr/bin/showtext
+-rwxr-xr-x 1 root root 53 May  7  2020 /usr/bin/showtext
+bandit25@bandit:~$ cat /usr/bin/showtext
+#!/bin/sh
+
+export TERM=linux
+
+more ~/text.txt
+exit 0
+
+note that a "more" prog, and we could ssh -i ./withThe.key and scale down the window to make MORE prog work
+and 
+#you are not going to believe me but we scale the terminal to enable "more" and use "V" #option to get entry the VIM
+#and we use ":e /dir" to open a file with current account's permission
+c7GvcKlw9mC7aUQaPx7nwFstuAIBw1o1
+#also, once we entry the vim, we could use :set shell=/bin/bash and :shell to launch a common shell
+c7GvcKlw9mC7aUQaPx7nwFstuAIBw1o1
