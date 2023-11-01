@@ -6,4 +6,4 @@ most are iirelevative about realistic pretrenating test but who knows bro.
 
 # note that some mutual or I think mutual tools、method、etc will be in main branch KISS!
 
-token tuc_He2dJjCcqsTR2CaHAV6S79063ZQtdi1Q0nxR
+token tuc_7dVOn5Ebpwn15vZsN6OxsqJLbuLOId2bx0Kw :)
