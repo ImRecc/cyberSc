@@ -1,0 +1,6 @@
+
+so we have an apache webpage that auto-display a formated message with music names..
+I have tried to figure out if there is *.list.txt or *.mp3 or folder..
+and I believe that by the name of our Network Sam, there must be a .key file or psw file in the sever...
+
+directory-level configuration file .. Apache..
