@@ -1,3 +1,4 @@
+#!/hackThisSite.org/basic/11
 
 so we have an apache webpage that auto-display a formated message with music names..
 I have tried to figure out if there is *.list.txt or *.mp3 or folder..
