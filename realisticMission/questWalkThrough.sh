@@ -1,0 +1,6 @@
+#!/hackThisSite/realisticMission
+
+# R1. simple injection attack
+
+R2. gobuster or some other scanner\fuzzer...
+    requires me to gain admin access, so must be an login.php or somthing similar...
