@@ -8,3 +8,7 @@ R2. gobuster or some other scanner\fuzzer...
     
 
 R3. yes, goBuster, but nothing interesting found 403 code haha..
+    however, there is some self-claimed genius script kiddo leave some comment and could use as clue
+    we found the vulnerable part that poem are store as file and only rewrite mode activated
+    Bizzard part is why /../index.html instead of /index.html
+    only gods know how this playground's file structures built
