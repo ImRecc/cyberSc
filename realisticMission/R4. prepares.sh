@@ -10,3 +10,5 @@ injection: SQL injection. Structured Query Language for our email list query att
 not counting on the stupid and hopeless directory traversal attack
 
 however, they have some input sanitize security
+
+yes, bypassing the formate check
