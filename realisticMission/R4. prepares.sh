@@ -12,3 +12,7 @@ not counting on the stupid and hopeless directory traversal attack
 however, they have some input sanitize security
 
 yes, bypassing the formate check
+
+sql injection exist,
+we found that mail list could be shown in it's grocery page, cause they both use sql query command
+SQL uniq. but I couldn't focus
