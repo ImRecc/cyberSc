@@ -16,3 +16,9 @@ yes, bypassing the formate check
 sql injection exist,
 we found that mail list could be shown in it's grocery page, cause they both use sql query command
 SQL uniq. but I couldn't focus
+
+finished No.4 but still some wondering not fix yet
+about two injection: SQL and SQL union, select Union all& select all
+both have explanation on portswigger.net but still
+can't focous for now
+damn
