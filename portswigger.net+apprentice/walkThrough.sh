@@ -11,3 +11,5 @@ than, attacker can bypass two-factor verification too
 #!/server-side authentical forgery, interesting way to bypass the verification
 
 #!/fileUploadVulnerabilities in apprentice level, zero verification or user-controllable verification not a prob anymore
+
+#!/OSCommandInjection nothing special for a non-protected place, but & is a shell command seperator
