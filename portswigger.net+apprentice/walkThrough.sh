@@ -8,4 +8,6 @@ but all those happen only on verification...
 a interesting thing about two-factor verification: when a user passed login and verification, a token or mark granted,
 than, attacker can bypass two-factor verification too
 
-!#/server-side authentical forgery, interesting way to bypass the verification
+#!/server-side authentical forgery, interesting way to bypass the verification
+
+#!/fileUploadVulnerabilities in apprentice level, zero verification or user-controllable verification not a prob anymore
