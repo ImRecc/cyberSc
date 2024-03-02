@@ -13,3 +13,5 @@ than, attacker can bypass two-factor verification too
 #!/fileUploadVulnerabilities in apprentice level, zero verification or user-controllable verification not a prob anymore
 
 #!/OSCommandInjection nothing special for a non-protected place, but & is a shell command seperator
+
+#!/SQLinjection with UNION key work, we should determine how many colum contain and full with NULL.
