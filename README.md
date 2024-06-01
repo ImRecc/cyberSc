@@ -11,8 +11,9 @@ most are iirelevative about realistic pretrenating test but who knows bro.
 
 # clash for windows, tun mode bug
 >turn off route forwarding:
->netsh interface ipv4 show interface
->netsh interface ipv4 set interface "name" forwarding=disabled
+>
+''' netsh interface ipv4 show interface
+netsh interface ipv4 set interface "name" forwarding=disabled '''
 
 toxicens tuc_m7s1W4qhrgArgXTV8Z0VT9JxEmNpOD3ETY3y :)
 
