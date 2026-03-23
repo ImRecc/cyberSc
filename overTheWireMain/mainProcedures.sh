@@ -2,4 +2,10 @@ L0-L1. connect then cat, connect via ssh bandit0@bandit.labs.xxx.xxx -p xxxx
 l1-l2. to open file that names like "-", try cat ./- to make system understand we are not trying to add arg
 l2-l3. the space, usually recognized as seperate, but a simple tab key will make system know how to autofill. like cat ./--spaces\ in\ this\ filename-- 
 l3-l4. same, tab is the way
-psw 4 L4: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+psw 4 L5: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+L4-L5. file -f <list> to examine files that listed on <list>
+file -cfile -c (compile magic)： 我们说过，file 靠“魔数”认文件。
+如果你自己发明了一种全新的文件格式（比如 .kagamine 后缀），你想让系统认识它，你得自己写一条魔数规则。
+写完之后，用 file -c 你的规则文件 来测试你的代码写得对不对。它输出的 cont offset type... 就是规则表格的表头
+
+file ./* work, in linux, man page, file [options] [...], those in brackets[], are optional, by default
