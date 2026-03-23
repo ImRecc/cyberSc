@@ -3,6 +3,10 @@
 >
 ### some experienced work in 
 > BANDIT-OVERTHEWIRE WARGAMES and HACKTHISSITE.ORG
+> ```
+>  ssh -o ServerAliveInterval=60 bandit1@bandit.labs.overthewire.org -p 2220
+> ```
+> to not been interrupted
 
 this is a self use reporsity STRANGELY SPOILER for some one dont want
 most are iirelevative about realistic pretrenating test but who knows bro.
