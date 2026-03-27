@@ -11,4 +11,7 @@ file ./* work, in linux, man page, file [options] [...], those in brackets[], ar
 L5-l6. find itself are Recursive, so find -size 1033c should do it
 psw 4 L6. HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 L7.morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
-L6-l7
+L6-l7 find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+没错，find能直接-user -group来filtering， 2>/dev/null， 把stderr这个通道2的信息拉到null中
+比直接find -size 33c | grep bandit7 然后眼睛看来的快， grep没有过滤这种功能。
+l7-l8. dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
