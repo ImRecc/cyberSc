@@ -19,3 +19,7 @@ l7-l8. dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 grep could be use as filter,
 -A n (After)： 显示匹配行及之后的 $n$ 行。-B n (Before)： 显示匹配行及之前的 $n$ 行。-C n (Context)： 显示匹配行前后各 $n$ 行。
 cat data.txt | grep -B 1 "millionth"
+
+l8-l9. 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+uniq ONLY compare Adjacent lines, sort first.
+sort data.txt | uniq -u
