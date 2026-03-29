@@ -23,3 +23,9 @@ cat data.txt | grep -B 1 "millionth"
 l8-l9. 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 uniq ONLY compare Adjacent lines, sort first. sort -o\sort > t1.txt, no permissions.
 sort data.txt | uniq -u
+
+l9-l10. ========== FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+try xxd -b data.txt | grep -A 1 "=", 
+but grep's usage needs more explore
+strings data.txt,
+strings could use to filtering all non-humanreadable chars
