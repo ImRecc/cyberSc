@@ -21,5 +21,5 @@ grep could be use as filter,
 cat data.txt | grep -B 1 "millionth"
 
 l8-l9. 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
-uniq ONLY compare Adjacent lines, sort first.
+uniq ONLY compare Adjacent lines, sort first. sort -o\sort > t1.txt, no permissions.
 sort data.txt | uniq -u
