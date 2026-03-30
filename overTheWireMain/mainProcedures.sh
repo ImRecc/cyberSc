@@ -33,3 +33,7 @@ strings could use to filtering all non-humanreadable chars
 
 L10-L11. dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 base64 trick
+
+L11-L12. ITuyVUOup3A3o3WxVTymVTE0HwR3Z2MnF2VjHyWmERMGE3AaZyWKoaOBIzbmpIWlPt==
+rot13, 
+tr 'A-Za-z' 'N-ZA-Mn-za-m'
