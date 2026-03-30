@@ -37,3 +37,4 @@ base64 trick
 L11-L12. ITuyVUOup3A3o3WxVTymVTE0HwR3Z2MnF2VjHyWmERMGE3AaZyWKoaOBIzbmpIWlPt==
 rot13, 
 tr 'A-Za-z' 'N-ZA-Mn-za-m'
+tr itself doesnot have any parser, simply Track1, track2
