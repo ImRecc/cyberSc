@@ -41,3 +41,7 @@ tr itself doesnot have any parser, simply Track1, track2
 乱码+==在结尾，几乎可以确认是base64的前面，base64是把3个字节变成4个字符，如果原始数据的长度不是 3 的倍数，编码器就会在末尾补上 1 个或 2 个 =。
 
 l12-l13. FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+gzip\bzip2, mathematical way to convert files, change in-place unless using options
+tar, tape Archive, bucklet the files, when EXTRACT(not decompress), 
+will trying to restore all the metaFile(permissions, belongs) by create
+so tar -xf xxx.tar -C /validDir to switch to granted directory
