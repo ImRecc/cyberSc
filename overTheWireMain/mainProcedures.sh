@@ -38,3 +38,4 @@ L11-L12. 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 rot13, 
 tr 'A-Za-z' 'N-ZA-Mn-za-m'
 tr itself doesnot have any parser, simply Track1, track2
+乱码+==在结尾，几乎可以确认是base64的前面，base64是把3个字节变成4个字符，如果原始数据的长度不是 3 的倍数，编码器就会在末尾补上 1 个或 2 个 =。
