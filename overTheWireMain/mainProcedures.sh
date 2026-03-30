@@ -34,7 +34,7 @@ strings could use to filtering all non-humanreadable chars
 L10-L11. dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 base64 trick
 
-L11-L12. ITuyVUOup3A3o3WxVTymVTE0HwR3Z2MnF2VjHyWmERMGE3AaZyWKoaOBIzbmpIWlPt==
+L11-L12. 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 rot13, 
 tr 'A-Za-z' 'N-ZA-Mn-za-m'
 tr itself doesnot have any parser, simply Track1, track2
