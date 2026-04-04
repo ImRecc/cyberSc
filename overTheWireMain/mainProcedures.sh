@@ -46,6 +46,11 @@ tar, tape Archive, bucklet the files, when EXTRACT(not decompress),
 will trying to restore all the metaFile(permissions, belongs) by create
 so tar -xf xxx.tar -C /validDir to switch to granted directory
 
-L13-l14. this is meant to be prac how I use sshkey.
+L13-l14. ssh -i /path/to/keyfile user@host
+this is meant to be prac how I use sshkey.
 yet, I wish to know more about file trans via ssh connexion
 netcat seems great, yet, public IP is a threashold
+ssh only allows strict keyfile,
+in windows, no inherit, only one user, are most viable
+
+
