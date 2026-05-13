@@ -47,6 +47,7 @@ will trying to restore all the metaFile(permissions, belongs) by create
 so tar -xf xxx.tar -C /validDir to switch to granted directory
 
 L13-l14. ssh -i /path/to/keyfile user@host
+ssh -i sshkey.private -o ServerAliveInterval=45 bandit14@localhost -p 2220
 this is meant to be prac how I use sshkey.
 yet, I wish to know more about file trans via ssh connexion
 netcat seems great, yet, public IP is a threashold
