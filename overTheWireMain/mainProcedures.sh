@@ -50,4 +50,14 @@ L13-l14. ssh -i /path/to/keyfile user@host
 ssh -i sshkey.private -o ServerAliveInterval=45 bandit14@localhost -p 2220
 yes, there are some way to login\get file, just wait
 
-
+l14-l15 
+nc localhost 30000 < bandit14
+cat bandit14 | nc localhost 30000
+在/etc/bandit_pass/ 里面
+（没错，这个设计是搞人的，故意的）
+nc 内部的代码逻辑只有一句话：“把键盘敲给我的东西（标准输入 stdin），发送到网络端口上去；把网络端口返回的东西，打印在屏幕上。”
+所以
+nc host port < FILE
+echo "xxx" > nc host port
+干的都是把stdin发给端口，如何返回的打印
+什么> 重定向，| 管线，是shell的逻辑，
