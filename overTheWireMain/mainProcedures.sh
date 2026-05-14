@@ -63,3 +63,12 @@ echo "xxx" > nc host port
 干的都是把stdin发给端口，如何返回的打印
 什么> 重定向，| 管线，是shell的逻辑，
 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+
+l15-l16
+kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+ncat是最新的，建议用这个，什么nc,netcat都是老东西了，不太行,然后man7.org比较好，比Linux.die.net好
+echo "strings" > ncat --ssl localhost 30001
+或者有些老东西不支持ncat，但是用了http的就多少会有openssl
+openssl s_client用于建立一个安全连接，
+openssl s_client -connect host:port
+然后再交互
