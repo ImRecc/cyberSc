@@ -62,4 +62,4 @@ nc host port < FILE
 echo "xxx" > nc host port
 干的都是把stdin发给端口，如何返回的打印
 什么> 重定向，| 管线，是shell的逻辑，
-MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
