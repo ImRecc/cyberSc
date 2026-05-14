@@ -49,6 +49,7 @@ so tar -xf xxx.tar -C /validDir to switch to granted directory
 L13-l14. ssh -i /path/to/keyfile user@host
 ssh -i sshkey.private -o ServerAliveInterval=45 bandit14@localhost -p 2220
 yes, there are some way to login\get file, just wait
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 
 l14-l15 
 nc localhost 30000 < bandit14
@@ -61,3 +62,4 @@ nc host port < FILE
 echo "xxx" > nc host port
 干的都是把stdin发给端口，如何返回的打印
 什么> 重定向，| 管线，是shell的逻辑，
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
