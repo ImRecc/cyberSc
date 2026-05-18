@@ -72,3 +72,26 @@ echo "strings" > ncat --ssl localhost 30001
 openssl s_client用于建立一个安全连接，
 openssl s_client -connect host:port
 然后再交互
+
+l16-l17
+ncat -z localhost portRange
+-z表示0I/O，连上直接退
+所以不能-z --ssl，因为--ssl需要完整的tcp握手
+或者nmap -p localhost portRange
+然后拿到的几个
+for port in Ranges; do echo "密码" | openssl s_client -connect host:$port -quiet; done
+或者nmap其实会比对字典来避免无限被echo的
+nmap -sV -p port host
+当然0个人需要真的扫那么多端口
+$ports=(nmap -p Ranges localhost | grep open | cut -d '/' -f 1 | tr '\n' ',')
+:: -d 代表delimiter，分隔符，分出两块， -f代表field， xxxx/tcp open，-f 1 第一块就是xxx
+来拿到一行端口，再
+for ports in $ports; do nmap -p $port -sV localhost; done
+或
+nmap -p $ports -sV --version-intensity localhost
+因为nmap接受1,2,3,这种形式，并且能忽略掉最后一个逗号
+当然nmap很慢，所以
+$ports=(nmap -p Ranges localhost | grep open | cut -d '/' -f 1)就行，for循环支持换行，不需要搞个空格tr '\n' ' '
+for port in $ports; do echo "kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx" | ncat --ssl localhost $port; done
+利用ncat直接ssl链接
+
