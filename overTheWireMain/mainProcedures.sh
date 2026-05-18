@@ -89,6 +89,8 @@ $ports=(nmap -p Ranges localhost | grep open | cut -d '/' -f 1 | tr '\n' ',')
 for ports in $ports; do nmap -p $port -sV localhost; done
 或
 nmap -p $ports -sV --version-intensity localhost
+或者快一点T0躲避防火墙检测，最慢,T5最快，容易丢包
+nmap -T4 -p $ports -sV --version-intensity 1 localhost
 因为nmap接受1,2,3,这种形式，并且能忽略掉最后一个逗号
 当然nmap很慢，所以
 $ports=(nmap -p Ranges localhost | grep open | cut -d '/' -f 1)就行，for循环支持换行，不需要搞个空格tr '\n' ' '
