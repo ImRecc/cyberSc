@@ -80,6 +80,8 @@ ncat -z localhost portRange
 或者nmap -p localhost portRange
 然后拿到的几个
 for port in Ranges; do echo "密码" | openssl s_client -connect host:$port -quiet; done
+加上-quiet可以忽略KEYUPDATE之类的回执或者参数信息
+
 或者nmap其实会比对字典来避免无限被echo的
 nmap -sV -p port host
 当然0个人需要真的扫那么多端口
