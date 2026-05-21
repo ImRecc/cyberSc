@@ -98,4 +98,8 @@ nmap -T4 -p $ports -sV --version-intensity 1 localhost
 $ports=(nmap -p Ranges localhost | grep open | cut -d '/' -f 1)就行，for循环支持换行，不需要搞个空格tr '\n' ' '
 for port in $ports; do echo "kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx" | ncat --ssl localhost $port; done
 利用ncat直接ssl链接
+EReVavePLFHtFlFsjn3hyzMlvSuSAcRD
 
+l17-l18:
+diff --suppress-common-lines file1 file2
+x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
