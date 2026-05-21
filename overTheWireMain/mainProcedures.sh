@@ -107,6 +107,9 @@ x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
 l18-l19
 ssh user@host "command_to_run"
 cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
-
+带命令的时候是非交互式的终端，会跳过.bashrc\.profile这些，
+只有结果然后关闭链接
+ssh -t bandit18@bandit.labs.overthewire.org -p 2220 "/bin/sh"
+这个可以强制分配一个shell，不加载.bashrc这些
 
 
