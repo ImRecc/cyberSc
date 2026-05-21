@@ -103,3 +103,10 @@ EReVavePLFHtFlFsjn3hyzMlvSuSAcRD
 l17-l18:
 diff --suppress-common-lines file1 file2
 x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+
+l18-l19
+ssh user@host "command_to_run"
+cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+
+
+
