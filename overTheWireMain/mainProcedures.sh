@@ -119,4 +119,8 @@ about chmod
 010->2
 001->1
 拥有者 (Owner)、同组用户 (Group)、其他人 (Others) 每个文件都有这仨
-
+然后有个s
+-rwsr-x---   1 bandit20 bandit19 14888 Apr  3 15:17 bandit20-do
+代表suid，用其他用户的名号运行文件
+常用手法就是找找suid配置不好的文件然后用了看权限不符合的东西
+0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
