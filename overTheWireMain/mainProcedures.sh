@@ -112,4 +112,11 @@ cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 ssh -t bandit18@bandit.labs.overthewire.org -p 2220 "/bin/sh"
 这个可以强制分配一个shell，不加载.bashrc这些
 
+l19-l20
+about chmod
+[r][w][x], triple binary number
+100->4
+010->2
+001->1
+拥有者 (Owner)、同组用户 (Group)、其他人 (Others) 每个文件都有这仨
 
