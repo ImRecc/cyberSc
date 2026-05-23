@@ -138,3 +138,12 @@ chmod -R go=
 
 l20-l21
 EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+port commu are client-client
+ncat -l -p to post a listener, 
+then ./suconnect to rise dialog
+then, both listener or caller can commu
+
+add & to put task in background
+use jobs to check like [1]+ Running nc -l -p 11451 &
+then fg [1] to put it back
+ctrlZ to pause, and bg [1] to put it background
