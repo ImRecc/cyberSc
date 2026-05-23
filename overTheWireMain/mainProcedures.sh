@@ -135,3 +135,6 @@ a = all (所有人)
 chmod -R go=
 把除了user外的权限清零
 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+
+l20-l21
+EeoULMCra2q0dSkYj561DX7s1CpBuOBt
