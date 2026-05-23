@@ -123,4 +123,15 @@ about chmod
 -rwsr-x---   1 bandit20 bandit19 14888 Apr  3 15:17 bandit20-do
 代表suid，用其他用户的名号运行文件
 常用手法就是找找suid配置不好的文件然后用了看权限不符合的东西
+还有符号模式
+u = user (主人)
+g = group (同组人)
+o = others (其他人)
+a = all (所有人)
+操作符：
++  增加权限
+-  剥夺权限
+=  精确设置权限（没写的就代表没有）
+chmod -R go=
+把除了user外的权限清零
 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
