@@ -174,3 +174,7 @@ md5sum -c check.md5
 有时候echo会自己加一个换行
 echo 'xxx'变成echo 'xxx\n'
 所以需要echo -n来保持
+
+l23-l24
+gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
+check hx.sh for more
