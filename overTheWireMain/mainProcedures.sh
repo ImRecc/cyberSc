@@ -161,3 +161,16 @@ tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
 
 l22-l23
 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
+正常下：md5sum filename
+输出 [32bit hash] filename
+如果多个文件
+md5sum *.txt > check.md5
+然后就可
+md5sum -c check.md5
+看看文件们和提供的哈希值是否一致
+- 单破折号代表标准输入
+用管道符传入数据时，md5sum为了保证[哈希值] [文件名] 这个死格式不被破坏
+在结尾加了个‘ -’表示是从键盘\管道来的数据
+有时候echo会自己加一个换行
+echo 'xxx'变成echo 'xxx\n'
+所以需要echo -n来保持
