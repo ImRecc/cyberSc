@@ -16,6 +16,8 @@ do
         echo "Handling $i"
         owner="$(stat --format "%U" "./$i")"
         if [ "${owner}" = "bandit23" ] && [ -f "$i" ]; then
+        # 如果需要字符串拼接，比如${name}s
+        # 不加大括号就会变成变量$names
         # -f file, 判断$i是不是普通文件，而不是快捷方式
         # POXIS不需要双等号
             timeout -s 9 60 "./$i"
