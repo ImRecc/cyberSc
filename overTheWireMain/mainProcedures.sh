@@ -147,3 +147,14 @@ add & to put task in background
 use jobs to check like [1]+ Running nc -l -p 11451 &
 then fg [1] to put it back
 ctrlZ to pause, and bg [1] to put it background
+
+l21-l22
+crond
+@reboot bandit22 /usr/bin/cronjob_bandit22.sh &> /dev/null
+* * * * * bandit22 /usr/bin/cronjob_bandit22.sh &> /dev/null
+下面代表每一分钟、每一小时、每一天、每一月、每一周
+如果想要0330
+那就30 3 * * *
+bandit22 代表强制以bandit22的权限运行
+cron是会被这种东西攻破的
+tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
