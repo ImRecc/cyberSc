@@ -145,8 +145,8 @@ then, both listener or caller can commu
 
 add & to put task in background
 use jobs to check like [1]+ Running nc -l -p 11451 &
-then fg [1] to put it back
-ctrlZ to pause, and bg [1] to put it background
+then fg %1 to put it back
+ctrlZ to pause, and bg %1 to put it background
 
 l21-l22
 crond
