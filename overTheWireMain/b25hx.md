@@ -1,4 +1,13 @@
 ```
+-eq : Equal (等于)
+-ne : Not Equal (不等于)
+-lt : Less Than (小于)
+-le : Less or Equal (小于等于)
+-gt : Greater Than (大于)
+-ge : Greater or Equal (大于等于)
+```
+
+```
   while [ $i -lt 10000 ]; do
       # printf "%04d" formats the number to 4 digits (e.g., 5 becomes 0005)
       formatted_i=$(printf "%04d" $i)
