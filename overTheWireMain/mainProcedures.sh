@@ -178,3 +178,10 @@ echo 'xxx'变成echo 'xxx\n'
 l23-l24
 gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
 check hx.sh for more
+
+l24-l25
+for i in {0000..9999}; do echo "gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8 $i"; done | ncat localhost 30002 | grep -v "W
+rong"
+this dump all the 10000 records to port at onece
+instead of session.post{} in python to seperately post 10000 time via one connexion
+iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
