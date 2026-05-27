@@ -41,6 +41,7 @@ echo "Server replied: $feedback"
 # 5. Close the session when you are done
 # (关闭连接)
 exec 3>&-
+#exec means to run a program and replace the shell
 ```
 
 ####the finale
