@@ -5,6 +5,7 @@
 -le : Less or Equal (小于等于)
 -gt : Greater Than (大于)
 -ge : Greater or Equal (大于等于)
+to compare two strings, use '==' or '!='
 ```
 
 ```
@@ -73,8 +74,22 @@ while [ $i -lt 10000 ]; do
     fi
     
     i=$((i + 1))
+#单括号是命令替换，比如$(ls)
+#双括号是算数替换
 done
 
 # Close the session
 exec 3>&-
+```
+```
+exec 3<>/dev/tcp/... 的拆解：
+3：我们自己挑一个空闲的编号（3 到 9 随便选）。
+<>：意思是 Read and Write (读写双向模式)。如果是 > 就是只写，< 就是只读。
+exec：在 Bash 里，exec 配合重定向符号使用时，它的作用是在当前 Shell 进程中永久打开这个文件描述符，而不是只给单条命令使用。
+整体意思： 建立一个 TCP 连接，并把它绑定到通道 3 上，允许读写。
+3>&- 的拆解：
+3：指定通道 3。
+>：重定向符号。
+&-：这是 Bash 的特殊语法，代表 Close (关闭)。
+整体意思： 释放/关闭通道 3。相当于 Python 里的 session.close()。
 ```
