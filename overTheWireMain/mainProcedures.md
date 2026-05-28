@@ -227,6 +227,16 @@ yes, git are not just github, it could be use as a decentralized encrypted file 
 
 #### l28-l29
 git are commit tool, **with all commit history recorded**
-`git log` to check modify history
-`git show <commit ID>` to get psw
-`git log -p` to get all the history
+`git log` to check modify history\
+`git show <commit ID>` to get psw\
+`git log -p` to get all the history\
+`4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7`
+
+#### l29-l30
+`qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL`
+in git, you have the repository, don't forget to check other branch\
+`git branch -r`
+a lot of devs, for the reason to convinent dev, put they keys in the file\
+telling themselves they are gonna delete those when merge\
+but no, they fogot\
+`git checkout dev`
