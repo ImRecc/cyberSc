@@ -240,3 +240,22 @@ a lot of devs, for the reason to convinent dev, put they keys in the file\
 telling themselves they are gonna delete those when merge\
 but no, they fogot\
 `git checkout dev`
+
+#### l30-l31
+`no I compeletely forgot`
+tag, use to mark files, like "v1, v2, special edition"\
+when it tagged as "secret", it's gonna hide\
+`git tag` to list all tags\
+`git show secret`\
+yes, show is a time travel "cat", can read files, tags, commits, deleted or hidden for years\
+
+#### l31-l32
+`3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K`
+`git add -f key.txt #-f to force execute`\
+`git commit -m 'message'` to queue a task # if no 'message', a vim gonna show up`\
+```
+git config user.name "bandit31"
+git config user.email "fake@fake.com"
+```
+no need to add --global \
+so make it only affect to current repo's folder
