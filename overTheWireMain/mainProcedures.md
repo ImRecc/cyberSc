@@ -215,3 +215,12 @@ so, do
 and yes, /etc/passwd are more like a default settings
 
 ```
+
+#### l26-l27
+`upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB`
+exactly same as previous level, setuid thing
+
+#### l27-l28
+`Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN`
+`git clone ssh://bandit27-git@localhost:2220/home/bandit27-git/repo`
+yes, git are not just github, it could be use as a decentralized encrypted file transfer tool
