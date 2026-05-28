@@ -242,7 +242,7 @@ but no, they fogot\
 `git checkout dev`
 
 #### l30-l31
-`no I compeletely forgot`
+`fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy`
 tag, use to mark files, like "v1, v2, special edition"\
 when it tagged as "secret", it's gonna hide\
 `git tag` to list all tags\
