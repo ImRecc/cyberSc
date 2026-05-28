@@ -224,3 +224,9 @@ exactly same as previous level, setuid thing
 `Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN`
 `git clone ssh://bandit27-git@localhost:2220/home/bandit27-git/repo`
 yes, git are not just github, it could be use as a decentralized encrypted file transfer tool
+
+#### l28-l29
+git are commit tool, **with all commit history recorded**
+`git log` to check modify history
+`git show <commit ID>` to get psw
+`git log -p` to get all the history
