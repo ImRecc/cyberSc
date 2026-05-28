@@ -259,3 +259,32 @@ git config user.email "fake@fake.com"
 ```
 no need to add --global \
 so make it only affect to current repo's folder
+
+#### l32-l33
+tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0
+```
+uppershell is my shell, so either ctrlZ\ctrlC will not work as expected
+former have pause and back to my shell, later kill the current progress(the only one) so closed the ssh connexion
+$0, this always holds the name of the currently running program.
+this prog, sh -c toupper($0), sh -c sh
+a brandnew shell came out
+Special variables are Metadata about your current environment.
+Here are the only 4 you will actually use in real life or CTFs:
+$0 : The name of the script/shell. (Great for escaping restricted shells).
+$? : The Exit Code of the last command. (0 = Success, 1+ = Error. Extremely useful when writing scripts to check if a command worked).
+$$ : The Process ID (PID) of the current shell. (Hackers use this to create random temporary file names, e.g., touch /tmp/virus_$$).
+$@ or $* : All the arguments passed to a script.
+```
+```
+注意，current environment并不只是shell或者什么程序\
+而是这些程序运行时候的记录变量\
+比如export命令出来的$SSH_CONNECTION, $CURRENT_PROG之类的、
+The specific set of sticky notes (variables) that the currently running program holds in its memory.
+```
+```
+Linux 绕过字母过滤 (Non-Alphanumeric Shellcode)
+原理： 当防火墙或受限 Shell 拦截了所有英文字母时，利用 Linux Shell 内置的特殊符号（如 $?, $#, $$）和数学运算，动态拼凑出字母。
+实战方案： 绝对不要手写。直接去 GitHub 找 Bashfuck 这类混淆工具。
+执行方式： 输入你想执行的命令（如 ls -la），工具会生成一坨几千个字符的纯符号乱码。把这坨乱码扔进目标 Shell 里执行。
+注意： 不同的 Shell（bash, dash, zsh）支持的符号语法不同，生成乱码时必须选对目标环境，否则会报错（Bad substitution）。
+```
