@@ -4,3 +4,7 @@ basic f12 trick
 
 #### l2. TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI 
 意味不明な\
+
+#### l3. 3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH
+文件路径还真是一个值得看看的地方，比如图在/files/img.img\
+那就可以看看/files，类似bandit
