@@ -8,3 +8,10 @@ basic f12 trick
 #### l3. 3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH
 文件路径还真是一个值得看看的地方，比如图在/files/img.img\
 那就可以看看/files，类似bandit
+
+#### l4. natas4:JDrPnuZAKyl6MkiqQGFIddrqpvgOASth
+robots.txt, when good bot like googleCrawler read this, it just ignores that\
+this is not a firewall, edge/chrome browser dont read that\
+The folder /s3cr3t/ was "hidden" from you simply because there were no buttons or links pointing to it on the main page.\
+browser are simple directly tool, only view where links put to\
+to get directories, gobuster is the way\
