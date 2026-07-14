@@ -15,3 +15,6 @@ this is not a firewall, edge/chrome browser dont read that\
 The folder /s3cr3t/ was "hidden" from you simply because there were no buttons or links pointing to it on the main page.\
 browser are simple directly tool, only view where links put to\
 to get directories, gobuster is the way\
+
+
+#### l5. natas5:e4z2Noy3oqwPJUWzJH0dseN67Cn1sy2M
