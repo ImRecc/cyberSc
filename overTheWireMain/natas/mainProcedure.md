@@ -22,3 +22,12 @@ the oldest way of verification: header's referrer;
 `curl.exe -u natas4:[PASSWORD] -H "Referer: http://natas5.natas.labs.overthewire.org/" http://natas4.natas.labs.overthewire.org/`
 to change referrer\
 curl not like browser's "edit and resend", don't care any rule so modify header are viable
+
+#### l6. natas6:7mhjtShJAcld2NYbKHEadnhEwRn2P8VT
+HTTP are stateless protocol\
+visit a website for the first time, the server gives your browser a tiny text file (a Cookie) that says something like user_role=guest.\
+cookies maybe the key. 
+`devTool->application->cookie`
+`curl.exe -u natas5:[PASSWORD] -b "cookie_name=cookie_value" http://natas5.natas.labs.overthewire.org/`
+or a cookie editor can do the trick
+`curl.exe -u natas5:[PASSWORD] -b "cookie_name=cookie_value" http://natas5.natas.labs.overthewire.org/`
