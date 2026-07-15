@@ -39,3 +39,11 @@ server side language\
 Developers often put sensitive configuration files (like .inc or .env or .bak) on the web server, \
 forgetting that anyone can just type the URL and download them\
 include "includes/secret.inc", this is the way\
+`in php
+/var/www/html/index.php if it's mainpage's loc
+include "includes/secret.inc",is a Relative Path. file must be physically located at /var/www/html/includes/secret.inc.
+` 
+but point is:\
+.bak、.swp、.inc \
+those temp file, not .php, often unconsiously saved in server, could be read, not like .php, apache server refuse to give raw data, \
+apache will run and give return value.
