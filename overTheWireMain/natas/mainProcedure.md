@@ -31,3 +31,11 @@ cookies maybe the key.
 `curl.exe -u natas5:[PASSWORD] -b "cookie_name=cookie_value" http://natas5.natas.labs.overthewire.org/`
 or a cookie editor can do the trick
 `curl.exe -u natas5:[PASSWORD] -b "cookie_name=cookie_value" http://natas5.natas.labs.overthewire.org/`
+
+
+#### l7.B1szg95UcTnrzwnF3i3TzYHlyYh8iBV0
+<?...?> are for php\
+server side language\
+Developers often put sensitive configuration files (like .inc or .env or .bak) on the web server, \
+forgetting that anyone can just type the URL and download them\
+include "includes/secret.inc", this is the way\
