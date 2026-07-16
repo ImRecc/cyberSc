@@ -47,3 +47,7 @@ but point is:\
 .bak、.swp、.inc \
 those temp file, not .php, often unconsiously saved in server, could be read, not like .php, apache server refuse to give raw data, \
 apache will run and give return value.
+
+#### l8.ugXL95KQmUAJJj6bMezOlBNDyI9Imwkc
+meaningless, most php have a 
+`$allowed_pages = ['home', 'about', 'contact', 'services'];` to avoid pathTraversal attack
