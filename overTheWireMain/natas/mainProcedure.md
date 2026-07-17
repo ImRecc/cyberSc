@@ -54,4 +54,7 @@ meaningless, most php have a
 
 #### l9.UdxmI27dTaXmnd1rxKQTfws6jihTdcQ9
 
+#### l10.EgjlkzB6E8LJyf2Obt4q7q4ewt5ZWSNv
+php's passthu(), similar to exec(),\
+use ; to divide commands\
 
