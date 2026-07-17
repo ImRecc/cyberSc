@@ -58,3 +58,9 @@ meaningless, most php have a
 php's passthu(), similar to exec(),\
 use ; to divide commands\
 
+#### l11.VUMQDmuITOEHzhviLE5V0VG9cPMQkyxd
+filter like preg_match(), not worth to spend tomuch\
+grep, \
+`grep PATTERN FILE` is the key\
+`grep . /etc/natas_webpass/natas11`\
+. means "any character" \
