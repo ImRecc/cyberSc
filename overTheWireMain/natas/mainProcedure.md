@@ -66,4 +66,14 @@ grep, \
 . means "any character" \
 
 #### l12.EAGkE8uzFTxeoTT2mMst9Xy7PX6guEng
+1. xor's key's length are fixed, it can't be fit for all input to met input ^ key = encrypted.\
+but key = encrypted ^ input, and get a repeated key, to know the length or "real key"\
+but The repeating key is: kBSwkBSwkBSwkBSwkBSwkBSwkBZ{GvF"R) this is what i got when cal the key.\
 
+2. we want cal the cookies to input, by input = b64Encode(xor（jsonEncode(desiredText), key))\
+and for the key's length didnt match exactly we want\
+( i think we could reduce bgcolor's length by 1 to get same answer， to not guess key's length to avoid second php script)
+
+3. b64 and php's main usage is some text are not humanReadable but computer storable or dealable? so store as data, then use b64 to handle
+more to see natas11-12's php script
+4. XOR have switch, A^B = B^A, based
