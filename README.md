@@ -31,3 +31,4 @@ toxicens tuc_m7s1W4qhrgArgXTV8Z0VT9JxEmNpOD3ETY3y :)
 linux cat image.jpg payload.zip > secret_image.jpg
 windows copy /b image.jpg + payload.zip secret_image.jpg
 ```
+img reader just looks for SOF(starts of file)(FF D8) and EOF(FF D9)
