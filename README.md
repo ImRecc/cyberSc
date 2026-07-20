@@ -25,3 +25,9 @@ toxicens tuc_m7s1W4qhrgArgXTV8Z0VT9JxEmNpOD3ETY3y :)
 
  tuc_!}8iH*D5ZE/fk6DQ4B\gqS|-~xj*@7_/ :/
  !}8iH*D5ZE/fk6DQ4B\gqS|-~xj*@7_/
+
+ polyglot:\
+ ```
+linux cat image.jpg payload.zip > secret_image.jpg
+windows copy /b image.jpg + payload.zip secret_image.jpg
+```
