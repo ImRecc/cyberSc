@@ -117,7 +117,7 @@ base sqlInjectiong ` “ OR 1=1 -- ` to get a false OR ture commmentize to ignor
 <input type="hidden" name="debug" value="1"> in F12, but just typing ?debug in the URL is much faster
 ```
 
-#### l16.
+#### l16.Xm6XEeRN3zsGjRDqBPmuqAVV65k7e3Gb
 Boolean-Based Blind SQL Injection\
 do a script to blur guess 52 alphabet in lower/upperCase;\
 `natas16" AND password LIKE "a%" -- `\ but force database to enable CASE-sensitive\
