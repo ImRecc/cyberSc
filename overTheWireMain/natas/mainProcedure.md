@@ -124,3 +124,11 @@ do a script to blur guess 52 alphabet in lower/upperCase;\
 `natas16" AND password LIKE BINARY "a%" -- `\
 and see return context\
 check the script
+
+#### [script] l17.KLdAM3VZux8o6TbkbhuaG5KtYjI77tfx
+`grep ^x /natas_webpass/natas17`\
+to use regex search\
+`$()` to run bash command insides of ""\
+`grep "xxx" dictionary.txt` only have output when it matched\
+`grep password"xxx" dict.txt` will show nothing, so this is the way\
+`$(grep ^{guess} /etc/natas_webpass/natas17)Africans`
