@@ -117,7 +117,7 @@ base sqlInjectiong ` “ OR 1=1 -- ` to get a false OR ture commmentize to ignor
 <input type="hidden" name="debug" value="1"> in F12, but just typing ?debug in the URL is much faster
 ```
 
-#### [script] l16.Xm6XEeRN3zsGjRDqBPmuqAVV65k7e3Gb
+#### [script] blind oracle l16.Xm6XEeRN3zsGjRDqBPmuqAVV65k7e3Gb
 Boolean-Based Blind SQL Injection\
 do a script to blur guess 52 alphabet in lower/upperCase;\
 `natas16" AND password LIKE "a%" -- `\ but force database to enable CASE-sensitive\
@@ -125,10 +125,12 @@ do a script to blur guess 52 alphabet in lower/upperCase;\
 and see return context\
 check the script
 
-#### [script] l17.KLdAM3VZux8o6TbkbhuaG5KtYjI77tfx
+#### [script] blind oracle l17.KLdAM3VZux8o6TbkbhuaG5KtYjI77tfx
 `grep ^x /natas_webpass/natas17`\
 to use regex search\
 `$()` to run bash command insides of ""\
 `grep "xxx" dictionary.txt` only have output when it matched\
 `grep password"xxx" dict.txt` will show nothing, so this is the way\
 `$(grep ^{guess} /etc/natas_webpass/natas17)Africans`
+About single test, could ask ai for curl -u user:psw syntax or\
+`F12-network-sumbit-copy curl(bash)`\
