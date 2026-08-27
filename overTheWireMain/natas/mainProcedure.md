@@ -134,3 +134,9 @@ to use regex search\
 `$(grep ^{guess} /etc/natas_webpass/natas17)Africans`
 About single test, could ask ai for curl -u user:psw syntax or\
 `F12-network-sumbit-copy curl(bash)`\
+
+#### [scricpt] l18.
+time relate blind inject\
+most of website response identical context even in different result\
+manually time delay when query success is the key\
+
