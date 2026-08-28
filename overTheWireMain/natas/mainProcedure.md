@@ -135,8 +135,8 @@ to use regex search\
 About single test, could ask ai for curl -u user:psw syntax or\
 `F12-network-sumbit-copy curl(bash)`\
 
-#### [scricpt] l18.
+#### [scricpt] l18.fDGn2A6Gsc0BUp3bZw0RNXpg0PZt40op
 time relate blind inject\
 most of website response identical context even in different result\
 manually time delay when query success is the key\
-
+should always do a double check and prolong the timeout when time delay blind inject\
