@@ -140,3 +140,6 @@ time relate blind inject\
 most of website response identical context even in different result\
 manually time delay when query success is the key\
 should always do a double check and prolong the timeout when time delay blind inject\
+
+#### [script] l19.qvwtMqAcVSBlf7HE3sw9pljhqqPF9MMT
+sequential cookie, just remember to `s.cookies.clear()` before get.\
