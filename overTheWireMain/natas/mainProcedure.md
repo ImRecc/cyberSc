@@ -143,3 +143,6 @@ should always do a double check and prolong the timeout when time delay blind in
 
 #### [script] l19.qvwtMqAcVSBlf7HE3sw9pljhqqPF9MMT
 sequential cookie, just remember to `s.cookies.clear()` before get.\
+
+#### [sc] l20.slOKYGsjlJhaqKliGvrgWAzln0JyrWao 281
+non sequential, but this is about base16, hex\
