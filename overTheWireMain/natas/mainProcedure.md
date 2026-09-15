@@ -161,3 +161,6 @@ or pythons:\
 <Response [200]>
 >>> print(s.get('http://natas20.natas.labs.overthewire.org/').text)
 ```
+#### l22.964laB0r7TuDqJj5b3HFtwsQoc0GhjBF
+a lot of products have secured main app, and a rudimentary colocate app\
+this one $_SESSION[$key] = $val; allow people to inject $_SESSION variable\
