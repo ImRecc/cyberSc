@@ -177,3 +177,11 @@ https://explainshell.com/ here for more info about curl\
 -v	--verbose	Shows the entire conversation (request headers + response headers).
 -L	--location	Follows redirects. (By default, curl does not follow redirects, which is why it effortlessly won Natas 22!).
 ```
+#### l24.shlL4BvOtawNCd81dwdKRHFzmTEjYYQX
+version guessing is interesting part in hacking\
+like php7, varies government\companies using\
+this level using php7, treat `43spfds > 10 as 43 > 10`\
+`spfds34 > 10 as 0>10`\
+`if (md5($user_input) == $admin_password_hash) { ... }`\
+if starts with 0e...., then put a 0 will break it\
+0 == 0e... as 0==0, must use === for strictly equal
