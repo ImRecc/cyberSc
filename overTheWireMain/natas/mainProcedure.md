@@ -164,3 +164,16 @@ or pythons:\
 #### l22.964laB0r7TuDqJj5b3HFtwsQoc0GhjBF
 a lot of products have secured main app, and a rudimentary colocate app\
 this one $_SESSION[$key] = $val; allow people to inject $_SESSION variable\
+
+#### l23.CH1OBxJy8uAxMM15Nx6VXSMwcJbBbnS5
+`curl -u natas22:964laB0r7TuDqJj5b3HFtwsQoc0GhjBF "http://natas22.natas.labs.overthewire.org?revelio"`
+https://explainshell.com/ here for more info about curl\
+```
+-u	--user	Sets username and password (-u user:pass).
+-d	--data	Sends an HTTP POST body (e.g. -d "name=alice").
+-c	--cookie-jar	Writes received cookies to a file.
+-b	--cookie	Sends cookies (either from a file -b cookies.txt or string -b "key=val").
+-i	--include	Prints the HTTP status code and response headers along with the body.
+-v	--verbose	Shows the entire conversation (request headers + response headers).
+-L	--location	Follows redirects. (By default, curl does not follow redirects, which is why it effortlessly won Natas 22!).
+```
