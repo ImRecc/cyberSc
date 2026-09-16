@@ -185,3 +185,10 @@ this level using php7, treat `43spfds > 10 as 43 > 10`\
 `if (md5($user_input) == $admin_password_hash) { ... }`\
 if starts with 0e...., then put a 0 will break it\
 0 == 0e... as 0==0, must use === for strictly equal
+
+#### l25.UJEF5OAHF1eW3lqkpdCDM7ow4syzh4oo
+strcmp expect string\
+strcmp($_REQUEST["passwd"], "<censored>")\
+when an array camein like `?password[]=`\
+it returns a error, false\
+but `if(!strcmp($_REQUEST["passwd"],"<censored>"))` returns a true\
