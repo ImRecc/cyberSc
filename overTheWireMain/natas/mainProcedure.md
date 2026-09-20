@@ -199,3 +199,5 @@ this level's security alarm collect un-filtered user-agent\
 to inject embedded php by trigger request\
 use same cookie to access it to make server run it\
 `curl -u natas25:UJEF5OAHF1eW3lqkpdCDM7ow4syzh4oo -b cookie.txt "http://natas25.natas.labs.overthewire.org/index.php?lang=....//logs/natas25_session.log`\
+
+#### l27.mj2mBEPWycXTTg5BXYT7UPXgXHx5hjvV
