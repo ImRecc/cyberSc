@@ -205,4 +205,14 @@ this level accepting user customizable Serialization\
 serialize is creating a snapshot, contains variables when deal with a class's instance\
 see php script for more\
 
-#### l28.Hy5wZLfVml7jnGmuvfbilRTUUkk29Dv3
+#### [script] l28.Hy5wZLfVml7jnGmuvfbilRTUUkk29Dv3
+the typical payload `natas28+space*57+x` required `PAD SPACE` collation, suffix space doesnt affect equal\
+so use a unicode `字节顺序标记（Byte Order Mark)` for alternative.\
+`\ufeff` in python, \
+```
+$feff = [char]0xFEFF
+$padding = -join (1..57 | ForEach-Object { [char]0xFEFF })
+$u = "natas28" + $padding + "x"
+```
+in powershell
+
